@@ -110,6 +110,8 @@ Library improvements
 
       * Balancing options for eigenvector calculations for general matrices ([#5428]).
 
+      * Mutating linear algebra functions no longer promote ([#5526]).
+
     * Sparse linear algebra
 
       * Faster sparse `kron` ([#4958]).
@@ -146,6 +148,8 @@ Library improvements
     * Dense linear algebra for generic matrix element types
 
       * LU factorization ([#5381] and [#5430])
+
+      * QR factorization ([#5526])
 
   * New function `deleteat!` deletes a specified index or indices and
     returns the updated collection
